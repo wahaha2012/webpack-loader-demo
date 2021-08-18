@@ -6,4 +6,10 @@ function loaderB(content, map, meta) {
   return JSON.stringify(json);
 }
 
+// pitch
+// loaderB.pitch = function (remainingRequest, precedingRequest, data) {
+//   console.log("loaderB pitch start");
+//   console.log(remainingRequest, "\n pre>", precedingRequest, "\n data>", data);
+// };
+
 module.exports = loaderB;
